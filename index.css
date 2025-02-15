@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+
+.whole{
+    display: flex;
+}
+
+.todolist{
+    flex: 2;
+    padding: 10px;
+    
+}
+
+.Todo{
+    flex: 1;
+    padding: 20px;
+    word-wrap: wrap;
+}
+
+
+
+.Add{
+    background-color: aqua;
+    border: None;
+    border-radius: 5px;
+    width: 85px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+button:active{
+    opacity: 40%;
+}
+
+input{
+    display: block;
+    width: 300px;
+    height: 15px;
+    padding: 10px;
+}
+
+p{
+    margin: 10px;
+    margin-left: 0;
+}
+.delete{
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.poubelle{
+    padding-left: 2px;
+    width: 15px;
+    
+}
+.listaaaa{
+    font-size: 20px;
+}
